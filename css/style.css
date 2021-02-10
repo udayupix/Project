@@ -119,7 +119,27 @@ a {
   padding-left: 0.5rem;
   margin-bottom: 1rem;
 }
-@media screen and (min-width:1024px){
-  .list--tick .list_item{
+@media screen and (min-width: 1024px) {
+  .list--tick .list_item {
     padding-left: 0;
   }
+}
+
+/* ICONS */
+
+.icon {
+  height: 40px;
+  width: 40px;
+}
+.icon--primary {
+  fill: var(--color-primary);
+}
+.icon-container {
+  background: #f3f9f8;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
